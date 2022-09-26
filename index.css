@@ -596,8 +596,10 @@ color: white;
     .titulo-tindercat h1 {
         font-size: 35px;
     }
+    .contenedor-tinder{
+        border-radius: 15px;
 }
-
+}
 
 /*SECCION CONTACTO*/ 
 #contactanos {
