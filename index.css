@@ -285,6 +285,8 @@ margin-top: 55px;
     #hero {
         height: 100vh;
     }
+    
+
 
     @media (max-width: 520px) {
         .gato-hero {
@@ -415,6 +417,10 @@ color: white;
         .titulo-imagenes {
             height: 450px;
         }  
+        
+        .titulo-imagenes p {
+            font-size: 18px;
+        }
     }
     
     
