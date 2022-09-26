@@ -653,7 +653,7 @@ color: white;
 .form-submit {
     padding: 10px;
     border-radius: 15px;
-    border: none
+    border: none;
 }
 
 .form-submit:hover{
