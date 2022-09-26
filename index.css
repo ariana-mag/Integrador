@@ -291,6 +291,19 @@ margin-top: 55px;
                 display: none;
         }
 }
+    
+    
+    @media (max-width: 520px) {
+
+.presentacion-hero h1 {
+    font-size: 30px;
+  
+
+}
+.presentacion-hero p {
+    font-size: 18px;
+}
+
 }
 
 /*SECCION GALERIA*/
@@ -402,6 +415,30 @@ color: white;
         .titulo-imagenes {
             height: 450px;
         }  
+    }
+    
+    
+    @media (max-width: 530px) {
+        .titulo-imagenes {
+           
+            height: 600px;
+        }  
+        .titulo-imagenes h1 {
+            font-size: 25px;
+        }
+        
+        .titulo-imagenes p {
+            font-size: 18px;
+        }
+        
+        
+        .contenedor-imagenes {
+           gap: 15px; 
+        }
+        #imagenes {
+            height: 350vh;
+        }
+    
     }
 
 
@@ -529,7 +566,18 @@ color: white;
     }
 }
 
+@media (max-width: 600px) {
 
+    #tinder {
+        height: 650vh;
+    }
+    .titulo-tindercat {
+        height: 250px;
+    }
+    .titulo-tindercat h1 {
+        font-size: 35px;
+    }
+}
 
 
 /*SECCION CONTACTO*/ 
@@ -656,7 +704,7 @@ color: black;
     .logo-titulo {
         
         padding: 5px;
-        size: 12px;
+        size: 15px;
        }
        
        .logo {
