@@ -550,7 +550,7 @@ color: white;
       height: 550vh;
     }
     }
-    }
+    
     @media (max-width: 750px) {
         #tinder {
             height: 650vh;
