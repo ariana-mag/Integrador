@@ -104,6 +104,7 @@ display: block;
        align-items: center;
        justify-content: center;
        transform: translateX(200%);
+        padding: 30px
       }
     
       .navbar-link {
@@ -125,10 +126,6 @@ display: block;
     .navbar ul {  height: calc(350px - 90px);
 gap: 8px;
 }
-
-.header {
-   padding: 30px
-    }
 }
 
 /*MAIN*/
