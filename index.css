@@ -147,6 +147,7 @@ background-color: lightgrey;
   flex-direction: column;
     width: 100%;
     height: 120vh;
+    padding: 5%;
 
 }
 
@@ -174,6 +175,8 @@ margin-top: 100px;
 .presentacion-hero {
     width: 50%;
     font-size: 20px;
+    padding: 0px 5px;
+    margin-right: 15px;
 }
 
 
@@ -433,7 +436,7 @@ color: white;
     @media (max-width: 530px) {
         .titulo-imagenes {
            
-            height: 600px;
+            height: 700px;
         }  
         .titulo-imagenes h1 {
             font-size: 25px;
