@@ -640,7 +640,6 @@ color: black;
     gap: 20px;
     font-size: 30px;
    
-   
 }
 
 .redes {
@@ -653,3 +652,21 @@ color: black;
    cursor: pointer;
 }
 
+@media (max-width: 520px) {
+    .logo-titulo {
+        
+        padding: 5px;
+        size: 15px;
+       }
+       
+       .logo {
+           
+           gap: 5px;
+           font-size: 25px;
+            }
+       
+       .redes {
+          
+           font-size: 20px;
+}
+}
