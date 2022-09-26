@@ -121,12 +121,16 @@ display: block;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 520px) {
     .navbar ul {  height: calc(350px - 90px);
 gap: 8px;
 }
 
-
+.header {
+    padd
+    20px
+    }
+}
 
 /*MAIN*/
 
