@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Mukta Malar', sans-serif;
+   
+    
+ }
+
+
+/*HEADER*/
+
+.header {
+width: 100%;
+height: 90px;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+background: rgb(195,34,194);
+background: linear-gradient(0deg, rgba(195,34,194,1) 16%, rgba(138,22,127,1) 56%, rgba(80,3,75,1) 96%);
+box-shadow: rgba(160, 159, 180, 9) 0px 9px 50px;
+}
+
+.div-header {
+    width: 50%;
+    height: 90px;
+    display: flex;
+   justify-content: left;
+   gap: 10px;
+}
+
+.h1-logo {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+     margin-top: 25px;
+     font-size: 30px;
+     color: bisque;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    padding: 35px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-weight: 300;
+    color: bisque;
+    font-size: 20px;
+}
+
+#toggle-menu {
+   
+    display: none;
+}
+
+.navbar i {
+   
+    display: none;
+}
+
+/*MEDIA QUERIES HEADER*/
+@media (max-width: 880px) {
+
+.h1-logo {
+    display: none;
+}
+.imagen-logo {
+
+display: block;
+
+}
+}
+@media (max-width: 760px) {
+   
+
+.h1-logo {
+    font-size: 28px;
+    margin-top: 26px;
+}
+
+.navbar ul {
+    gap: 18px;
+}
+
+.navbar-link {
+    font-size: 18px;
+    font-style: inherit;
+}
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+
+    background-color: rgba(169, 169, 169, 0.568);
+       width: 100%;
+       height: calc(300px - 90px);
+       position: absolute;
+       top: 90px;
+       left: 0;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       transform: translateX(200%);
+      }
+    
+      .navbar-link {
+        color: black;
+        font-weight: 400;
+      }
+    
+    .navbar i {
+        display: block
+    }
+
+   #toggle-menu:checked ~ .navbar-list {
+   transform: translateX(0%);
+   size: 20px;
+    }
+
+}
+
+
+
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #A9C9FF;
+background-color: lightgrey;
+
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    height: 120vh;
+
+}
+
+.contenedor-hero {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 0px 20px;
+margin-top: 100px;
+
+
+}
+
+
+.presentacion-hero h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.presentacion-hero {
+    width: 50%;
+    font-size: 20px;
+}
+
+
+.gato-hero {
+    height: 500px;
+
+}
+
+/*MEDIA QUERIES HERO*/
+
+@media (max-width: 1200px) {
+
+    #hero {
+        margin-top: 90px;
+        height: 100vh;
+    }
+
+
+.contenedor-hero{
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: lightgrey;
+    }
+
+    .presentacion-hero h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    
+    }
+
+
+.gato-hero {
+    display: flex;
+    margin-left: 90px;
+    height: 300px
+    }
+
+
+
+
+}
+
+@media (max-width: 900px) {
+
+    #hero {
+        margin-top: 150px;
+    
+    }
+
+.contenedor-hero{
+flex-direction: column;
+margin-top: 50px;
+}
+
+.presentacion-hero {
+width: 100%;
+margin-top: 55px;
+
+
+}
+
+.gato-hero {
+   
+    height: 250px;
+}   
+
+.presentacion-hero h1 {
+    font-size: 35px;
+  
+
+}
+.presentacion-hero p {
+    font-size: 20px;
+}
+
+}
+
+@media (max-width: 700px) {
+.gato-hero {
+   display: none;
+   }   
+  
+   #hero {
+    margin-top: 100px;
+  
+}
+.presentacion-hero h1 {
+    font-size: 30px;
+}
+
+.contenedor-hero{
+    
+    margin-top: 30px;
+   
+    }
+}
+
+@media (max-width: 600px) {
+
+    .contenedor-hero {
+        margin-top: 200px;
+    }
+
+ 
+    .gato-hero {
+           display: none;
+    }
+    #hero {
+        height: 100vh;
+    }
+
+    @media (max-width: 520px) {
+        .gato-hero {
+                display: none;
+        }
+}
+}
+
+/*SECCION GALERIA*/
+
+#imagenes {
+
+display: flex;
+background-color: azure;
+width: 100%;
+height: 100vh;
+
+background-color: lightgrey;
+
+ }
+
+.titulo-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    gap: 30px;
+    padding: 50px;
+    background-color: lightgrey;
+    
+    
+    
+}
+
+.titulo-imagenes h1 {
+    font-size: 35px;
+}
+
+.titulo-imagenes p {
+    font-size: 20px;
+}
+
+
+.contenedor-imagenes {
+    margin-top: 30px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+
+
+
+}
+
+.galeria {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   width: 250px;
+   height: 400px;
+   border-style: double;
+   border-color: black;
+   border-radius: 15px;
+   background-color: rgba(139, 0, 139, 0.863);
+   padding-top: 15px;
+   box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -webkit-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -moz-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+}
+
+.div-boton {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 65%;
+}
+    
+.boton {
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+
+.boton:hover{
+
+background-color: black;
+border-style: double;
+border-color: blueviolet;
+color: white;
+}
+
+.img {
+    border-radius: 15px;
+    border-style: double;
+    background-color: lightgrey;
+}
+
+/*MEDIA QUERIES GALERIA*/
+
+@media (max-width: 1000px) {
+    #imagenes {
+        height: 200vh;
+    }
+}
+
+
+
+    @media (max-width: 760px) {
+        .titulo-imagenes {
+            height: 450px;
+        }  
+    }
+
+
+    /*SECCION TINDER*/
+
+    #tinder {
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 300vh;
+        background-color: lightgrey;
+      
+
+    
+         }
+
+.titulo-tindercat {
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: lightgrey;
+    height: 200px;
+    gap: 10px;
+   
+
+}
+
+
+.titulo-tindercat h1 {
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    font-size: 45px;
+ 
+}
+
+.titulo-tindercat p {
+    font-size: 20px;
+}
+
+.contenedor-tinder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.tinder{
+  
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -webkit-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -moz-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+}
+
+.desc-tinder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+  
+}
+ 
+.img-tinder {
+    border-radius: 20px;
+    border-style: inset;
+    border-style: double;
+    border-color: black;
+    
+}
+
+/*MEDIA QUERIES TINDER*/
+
+@media (max-width: 1160px) {
+  
+    .titulo-tindercat {
+        
+        height: 200px;
+        padding: 50px;
+        
+    }
+
+    @media (max-width: 950px) {
+        #tinder {
+            height: 480vh;
+        }
+    }
+    @media (max-width: 920px){
+      
+    #tinder {
+      height: 550vh;
+    }
+    }
+    }
+    @media (max-width: 750px) {
+        #tinder {
+            height: 650vh;
+        }
+
+        .titulo-tindercat {
+           
+            padding: 20px;
+            gap: 10px;
+         }
+        .contenedor-tinder {
+         gap: 100px;
+          }
+}
+              
+@media (max-width: 600px) {
+    .titulo-tindercat {
+        height: 350px;
+    }
+}
+
+
+
+
+/*SECCION CONTACTO*/ 
+#contactanos {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+  
+}
+
+
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    
+    margin-top: 20px;
+    width: 500px;
+    height: 550px;
+    border-radius: 1px;
+    border-style: double;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -webkit-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+   -moz-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
+
+}
+
+.tit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    color: black;
+    
+}
+
+.form-input {
+    padding: 10px;
+    border-radius: 15px;
+    border: none
+    
+}
+
+.form-input-mensaje {
+    height: 150px;
+}
+
+.form-submit {
+    padding: 10px;
+    border-radius: 15px;
+    border: none
+}
+
+.form-submit:hover{
+color: white;
+background-color: blueviolet;
+border-style: double;
+color: black;
+
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+}
+
+.pie-pagina {
+    height: 100%;
+    padding: 20px;
+}
+
+
+.logo-titulo {
+ display: flex;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ justify-content: space-between;   
+ padding: 20px;
+ size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    font-size: 30px;
+   
+   
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    font-size: 30px;
+   cursor: pointer;
+}
+
