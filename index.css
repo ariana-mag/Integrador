@@ -99,7 +99,7 @@ display: block;
 
     background-color: rgba(169, 169, 169, 0.568);
        width: 100%;
-       height: calc(300px - 90px);
+       height: calc(400px - 90px);
        position: absolute;
        top: 90px;
        left: 0;
