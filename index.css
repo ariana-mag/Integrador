@@ -156,6 +156,7 @@ align-items: center;
 width: 100%;
 margin: 0px 20px;
 margin-top: 100px;
+ max-width: 100%;
 
 
 }
@@ -196,6 +197,7 @@ margin-top: 100px;
     width: 100%;
     margin-bottom: 100px;
     background-color: lightgrey;
+    max-width: 100%;
     }
 
     .presentacion-hero h1 {
@@ -227,6 +229,7 @@ margin-top: 100px;
 .contenedor-hero{
 flex-direction: column;
 margin-top: 50px;
+    max-width: 100%;
 }
 
 .presentacion-hero {
@@ -268,6 +271,7 @@ margin-top: 55px;
 .contenedor-hero{
     
     margin-top: 30px;
+    max-width: 100%;
    
     }
 }
@@ -352,6 +356,7 @@ background-color: lightgrey;
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
+    max-width: 100%;
 
 
 
@@ -440,6 +445,7 @@ color: white;
         
         .contenedor-imagenes {
            gap: 15px; 
+            max-width: 100%;
         }
         #imagenes {
             height: 350vh;
@@ -495,6 +501,7 @@ color: white;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 100%;
     
 }
 
@@ -564,6 +571,7 @@ color: white;
          }
         .contenedor-tinder {
          gap: 100px;
+            max-width: 100%;
           }
 }
               
