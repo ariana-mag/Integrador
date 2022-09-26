@@ -517,6 +517,7 @@ color: white;
     align-items: center;
     justify-content: center;
     margin: 30px;
+    border-radius: 15px;
     box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
    -webkit-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
    -moz-box-shadow: 20px 19px 7px -8px rgba(0,0,0,0.48);
